@@ -55,7 +55,7 @@ const response = await fetch(`https://ayida-back-end.onrender.com/Lexeme?letter=
             <div key={index} className="word-card">
               <div className="word-header">
                 <h3>{item.Lexeme}</h3>
-                <button onClick={() => handleSpeak(item.Lexeme)}>🔊</button>
+                
               </div>
               <p className="ipa">[{item.Phone}]</p>
               <p className="pos"><em>{item["Parts of Speech"]}</em></p>
